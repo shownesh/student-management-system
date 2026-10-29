@@ -1,0 +1,69 @@
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 22px 15px;
+  border-bottom: 2px solid #e0e7ff;
+}
+
+.header h1 {
+  color: #2563eb;
+  margin: 0;
+  font-size: 30px;
+}
+
+.student-container {
+  width: 85%;
+  max-width: 700px;
+  margin: 30px auto;
+  flex: 1;
+}
+
+.student-container h2 {
+  color: #333333;
+  margin-top: 25px;
+  margin-bottom: 12px;
+}
+
+.student-profile {
+  background-color: #ffffff;
+  border: 2px solid #2563eb;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
+}
+
+.student-profile p {
+  font-size: 17px;
+  margin: 10px 0;
+  color: #333333;
+}
+
+.footer {
+  background-color: #1e293b;
+  color: #ffffff;
+  text-align: center;
+  padding: 18px;
+  margin-top: auto;
+}
+
+.footer p {
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  .header h1 {
+    font-size: 23px;
+  }
+
+  .student-container {
+    width: 90%;
+  }
+}
